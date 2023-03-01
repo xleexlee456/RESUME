@@ -1,0 +1,247 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(168, 145, 221);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume {
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 450px 800px;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+.left-side {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    background-color: rgb(45, 62, 92);
+    padding: 20px;
+}
+.right-side {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* LEFT SIDE*/
+/*heading name and picture*/
+
+.heading {
+    color: white;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.handsome {
+    height: 95%;
+    width: 70%;
+    border-radius: 50%;
+    border: 5px solid rgba(27, 27, 70, 0.582);
+    position: relative;
+    left: 15%;
+}
+
+.name {
+    font-size: larger;
+    position: relative;
+    left: 50px;
+
+}
+
+.about-self {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+/* social media and contacts*/
+
+
+.contact-info {
+    color: white;
+    position: relative;
+    left: 50px;
+    padding-top: 30px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.ct {
+    font-size: larger;
+    border-bottom: 3px solid grey;
+    font-weight: 800;
+}
+a {
+    color: white;
+}
+
+.social-media-links {
+    color: white;
+    padding-top: 30px;
+}
+
+.social {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.sls{
+    font-size: larger;
+    border-bottom: 3px solid grey;
+    font-weight: 800;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.fa-brands {
+    position: relative;
+    right: 10px;
+}
+.fa-solid {
+    padding-bottom: 10px;
+}
+
+/* RIGHT SIDE */
+
+/*work-experience*/
+
+.title-text {
+    color: rgb(70, 149, 173);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.wi {
+    font-style: italic;
+    color: rgba(57, 119, 155, 0.623);
+}
+.tasks {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.at {
+    font-weight: bold;
+}
+
+/*education */
+
+.uni, .years {
+    font-style: italic;
+    color: rgba(57, 119, 155, 0.623);
+}
+
+.education .years {
+    padding-bottom: 15px;
+}
+.thesis {
+    padding-left: 20px;
+}
+
+/*skills*/
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.skill-set {
+    border: 2px ;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px;
+    padding: 5px;
+    background-color:rgb(45, 62, 92);
+    color: white;
+}
+
+/* Hobbies */
+
+.hob {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.hobby {
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px;
+    padding: 5px;
+    background-color:rgb(230, 242, 250);
+}
+/* reference*/
+
+.num {
+    font-style: italic;
+    color: rgba(57, 119, 155, 0.623);
+}
+.ref-contact{
+    padding-bottom: 20px;
+}
+
+/*spoken  languages*/
+
+.tab {
+    font-size: large;
+    padding-left: 20px;
+}
+/* Certification */
+
+.certifications {
+    display: flex;
+    flex-direction: column;
+}
+.certs {
+    font-size: large;
+}
+
+@media only screen and (max-width: 768px){
+    .resume {
+        display: flex;
+        flex-direction: column;
+    }
+}
